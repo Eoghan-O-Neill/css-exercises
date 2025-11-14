@@ -3,10 +3,18 @@ body {
   font-family: sans-serif;
 }
 
-.card {
+.title, .content, .button-container {
   width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.card {
+  width: 450px;
   background: #fff;
-  margin: 16px auto;
+  margin: auto;
+  padding: 1px;
+  padding-top: 13px;
 }
 
 .title {
@@ -19,9 +27,14 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  width: 100px;
+  margin: auto;
+  padding: 8px;
 }
